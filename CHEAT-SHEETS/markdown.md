@@ -11,6 +11,7 @@ Mon texte `code` fin de mon texte
 <<<<<<< HEAD
 > Ce texte apparaîtra dans un élément HTML <blockquote>.
 > Ce texte apparaîtra dans un élément HTML <blockquote>.
+<<<<<<< HEAD
 
 Premier paragraphe
 
@@ -43,10 +44,12 @@ Titre de niveau 2
 =======
 > Ce texte apparaîtra dans un élément HTML <blockquote>.
 >>>>>>> 2335b9a... Corrections markdown
+=======
+>>>>>>> 42b5c97... Corrections markdown
 
 Premier paragraphe
 
-Deuxième paragraphe   (en sautant une ligne)
+Deuxième paragraphe   (eb sautant un ligne)
 
 deux espaces en fin de ligne  font sauter une ligne
 apparemment.
