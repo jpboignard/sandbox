@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Commandes basiques
 ==================
 
@@ -47,10 +48,16 @@ Pour annuler les modifs jusqu'au dernier commit d'octocat.txt
 Pour effectuer des modifications dans une branche:
 =======
 git config --global user.name "myusername"
+=======
+Commandes basiques
+==================
+>>>>>>> b3d5e6b... Corrections markdown
 
-git config --global user.email "email@gmail.com"
+    git config --global user.name "myusername"
 
-mkdir myproject;cd myproject
+    git config --global user.email "email@gmail.com"
+
+    mkdir myproject;cd myproject
 
     git init
 
@@ -60,32 +67,43 @@ mkdir myproject;cd myproject
 
     git commit -m "my good comment"
 
-Pousser les modifs sur le dépôt:
+Pousser les modifs sur le dépôt ( '-u' pour n'avoir à faire que 'git push' par la suite)
+
     git push -u origin master
--u pour que git se rappelle, et n'avoir à faire que git "push"
+
 
 Récupérer les modifs:
+
     git pull orgin master
 
 Voir les différences:
+
     git diff HEAD
 
     git add octofamily/octodog.txt
 
 Voir les changements que nous venons de faire
+
     git diff --staged
 
-Pour annuler la modif sur un fichier
+Pour annuler la modif sur un fichier:
+
     git reset octofamily/octodog.txt
 
-Ppour annuler les modifs jusqu'au dernier commit d'octocat.txt
+Pour annuler les modifs jusqu'au dernier commit d'octocat.txt
+
     git checkout -- octocat.txt
 
+<<<<<<< HEAD
 >>>>>>> 0e6fcc8... First step
+=======
+Pour effectuer des modifications dans une branche:
+>>>>>>> b3d5e6b... Corrections markdown
 
     git branch aspecialwork
     git checkout aspecialwork
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Supprimer certains fichiers dans la branche:
 
@@ -105,15 +123,27 @@ Pousser tout sur le serveur:
 
 =======
 Supprimer certains fichiers dans la branche
+=======
+Supprimer certains fichiers dans la branche:
+
+>>>>>>> b3d5e6b... Corrections markdown
     git rm "*.txt"
     git commit -m " Suppression fichiers"
 
-Revenir dans la branche master
+Revenir dans la branche master:
+
     git checkout master
 
     git merge aspecialwork
+
 Suppression de la branche:
+
     git branch -d aspecialwork
+
 Pour pousser tout sur le serveur:
+<<<<<<< HEAD
 >>>>>>> 0e6fcc8... First step
+=======
+
+>>>>>>> b3d5e6b... Corrections markdown
     git push
